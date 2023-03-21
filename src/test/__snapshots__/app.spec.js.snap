@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Example Test App > should mount correctly 1`] = `
+"<div class=\\"q-layout q-layout--standard\\" style=\\"min-height: 768px;\\" tabindex=\\"-1\\">
+  <!----><object style=\\"display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;\\" tabindex=\\"-1\\" type=\\"text/html\\" data=\\"about:blank\\" aria-hidden=\\"true\\"></object>
+  <header class=\\"q-header q-layout__section--marginal fixed-top\\">
+    <div class=\\"q-toolbar row no-wrap items-center\\" role=\\"toolbar\\"><button class=\\"q-btn q-btn-item non-selectable no-outline q-btn--flat q-btn--round q-btn--actionable q-focusable q-hoverable q-btn--dense\\" tabindex=\\"0\\" type=\\"button\\" aria-label=\\"Menu\\"><span class=\\"q-focus-helper\\"></span><span class=\\"q-btn__content text-center col items-center q-anchor--skip justify-center row\\"><i class=\\"q-icon notranslate material-icons\\" aria-hidden=\\"true\\" role=\\"img\\">menu</i></span></button>
+      <div class=\\"q-toolbar__title ellipsis\\">Quasar CLI with Vite App!</div>
+      <div>Quasar v2.11.8</div>
+    </div>
+    <div class=\\"q-layout__shadow absolute-full overflow-hidden no-pointer-events\\"></div><object style=\\"display: block; position: absolute; top: 0px; left: 0px; right: 0px; bottom: 0px; height: 100%; width: 100%; overflow: hidden; pointer-events: none; z-index: -1;\\" tabindex=\\"-1\\" type=\\"text/html\\" data=\\"about:blank\\" aria-hidden=\\"true\\"></object>
+  </header>
+  <div class=\\"q-drawer-container\\">
+    <aside class=\\"q-drawer q-drawer--left q-drawer--bordered q-drawer--standard fixed q-drawer--top-padding\\" style=\\"width: 300px; transform: translateX(-300px);\\">
+      <div class=\\"q-drawer__content fit scroll\\">
+        <div class=\\"q-list\\">
+          <div class=\\"q-item__label q-item__label--header\\">Essential Links</div>
+          <h1 class=\\"tw-text-3xl tw-font-bold tw-underline\\"> Hello world! </h1>
+          <!-- <EssentialLink
+          v-for=\\"link in essentialLinks\\"
+          :key=\\"link.title\\"
+          v-bind=\\"link\\"
+        /> -->
+        </div>
+      </div>
+    </aside>
+  </div>
+  <div class=\\"q-page-container\\" style=\\"padding-top: 50px; padding-left: 300px;\\"></div>
+</div>"
+`;
